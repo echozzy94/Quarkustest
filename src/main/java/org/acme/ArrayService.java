@@ -26,7 +26,7 @@ public class ArrayService {
         for (int i = 0; i < fruit.size(); i++){
             if (fruit.get(i).toString().equals(name)){
                 fruit.remove(i);
-                return "Fruit verwijderd";
+                return name+ " verwijderd";
             } else {
                 return name + " niet gevonden";
             }
